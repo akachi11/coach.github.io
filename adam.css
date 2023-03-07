@@ -1,0 +1,94 @@
+.cont{
+    text-align: center;
+}
+.profile-pic {
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.rank {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.name{
+    font-size: 200%;
+}
+.level {
+    font-size: 200%;
+}
+.tabss {
+    display: flex;
+    margin: 0 auto;
+    max-width: 800px;
+    flex-wrap: wrap;
+    padding-bottom: 1px;
+    list-style: none;
+    justify-content: center;
+    border-bottom: solid 1px;
+    margin-bottom: 30px;
+}
+.rate{
+    font-family: "Raleway";
+    font-size: 150%;
+}
+.star {
+    color: #999;
+    font-size: 200%;
+}
+.tab-content {
+    position: relative;
+    text-align: center;
+}
+[data-tab-content] {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+}
+.active[data-tab-content] {
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+}
+.tabss .tab {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "Raleway";
+    color: black;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.tabss .tab.active,
+.tabs .tab:hover {
+    color: slateblue;
+    border-bottom: 2px solid #9A884C;
+}
+.heading {
+    text-align: center;
+}
+.key {
+    color: slateblue;
+}
+.des {
+    box-shadow: 5px 5px 5px 5px grey;
+    border-radius: 1rem;
+    padding: 3%;
+    margin: 0 3% 3%;
+}
+.boxed {
+    text-align: center;
+}
+.s-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.s-links a {
+    text-decoration: none;
+}
+.s-links li{
+    padding-right: 20px;
+}
+.s-links {
+    text-align: center;
+}
