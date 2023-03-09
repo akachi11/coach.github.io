@@ -1425,15 +1425,14 @@ img.post-image {
     margin: auto;
 }
 
-/*----- Featured Books Section
---------------------------------------------------------------*/
+
 #special-offer,
-#popular-books,
-#featured-books {
+#featured-coaches {
+    margin-top: 4em;
     margin-bottom: 180px;
     z-index: 0;
 }
-#featured-books .product-list {
+#featured-coaches .product-list {
     border-bottom: 1px solid #E0E0E0;
     margin-bottom: 30px;
 }
@@ -1473,8 +1472,7 @@ img.post-image {
   }
 }
 
-/*----- Popular Books Section
---------------------------------------------------------------*/
+
 .tab-content {
     position: relative;
 }
@@ -1507,15 +1505,7 @@ img.post-image {
     color: #111;
     border-bottom: 2px solid #9A884C;
 }
-img.books-image {  
-    /*height: 290px;*/
-    margin-right: 10px;
-    margin-bottom: 10px;
-    object-fit: cover;
-}
 
-/*----- Quotation Section
---------------------------------------------------------------*/
 #quotation .section-title.divider,
 #quotation .section-title.divider:after {
     margin: 0 auto;
@@ -1679,7 +1669,7 @@ span.prev-price {
 .dropdown {
   min-width: 15em;
   position: relative;
-  margin: 2em;
+  margin: 2em 2em 0em 0.5em;
 }
 .dropdown * {
   box-sizing: border-box;
@@ -1731,6 +1721,8 @@ span.prev-price {
   opacity: 0;
   display: none;
   transition: 0.2s;
+  max-height: 200px;
+  overflow-y: scroll;
 }
 .menu li {
   padding: 0.7em 0.5em;
@@ -1892,7 +1884,7 @@ footer#footer {
     width: 33.33%;
 }
 .persona{
-    background-color: white;
+    background-color: #f2e9ea;
     border-radius: 1rem;
 }
 .desc{
@@ -1920,36 +1912,6 @@ footer#footer {
 .num{
   font-size: large;
   color: #33C3F0;
-}
-.gold{
-  background:conic-gradient(#edc800, #e3b600, #f3cf00, #ffe800,
-                            #edc800, #e3b600, #f3cf00, #ffe800,
-                            #edc800, #e3b600, #f3cf00, #ffe800,
-                            #edc800, #e3b600, #f3cf00, #ffe800);
-}
-.silver{
-  background:conic-gradient(#d7d7d7, #c3c3c3, #cccccc, #c6c6c6,
-                            #d7d7d7, #c3c3c3, #cccccc, #c6c6c6,
-                            #d7d7d7, #c3c3c3, #cccccc, #c6c6c6,
-                            #d7d7d7, #c3c3c3, #cccccc, #c6c6c6);
-}
-.bronze{
-  background:conic-gradient(#d95641, #b14439, #b2453a, #d25645,
-                            #d95641, #b14439, #b2453a, #d25645,
-                            #d95641, #b14439, #b2453a, #d25645,
-                            #d95641, #b14439, #b2453a, #d25645);
-}
-.platinum{
-  background:conic-gradient(#e6e9bf, #d2b5aa, #cbaea3, #d4b5ab,
-                            #e6e9bf, #d2b5aa, #cbaea3, #d4b5ab,
-                            #e6e9bf, #d2b5aa, #cbaea3, #d4b5ab,
-                            #e6e9bf, #d2b5aa, #cbaea3, #d4b5ab);
-}
-.diamond{
-  background:conic-gradient(#96c8a2, #a0d6b4, #addfad, #e7eee1,
-                            #96c8a2, #a0d6b4, #addfad, #e7eee1,
-                            #96c8a2, #a0d6b4, #addfad, #e7eee1,
-                            #96c8a2, #a0d6b4, #addfad, #e7eee1);
 }
 
 .deets{
